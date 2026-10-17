@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="三河石府 · 三河之畔，品味东方至味。臻选时令河鲜，名厨掌勺，私密包间，预订从速。" />
+  <title>三河石府 · 精致中餐厅</title>
+
+  <!-- 字体（网络不可用时自动回退到系统字体） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2316120e'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%23c6a15b' font-family='serif'%3E石%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ===================== 顶部导航 ===================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="三河石府 首页">
+        <span class="brand-mark">石</span>
+        <span class="brand-text">
+          <strong>三河石府</strong>
+          <small>SAN HE DINING</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="主导航">
+        <a href="#home" class="nav-link active">首页</a>
+        <a href="#about" class="nav-link">关于我们</a>
+        <a href="#dishes" class="nav-link">招牌菜</a>
+        <a href="#gallery" class="nav-link">餐厅环境</a>
+        <a href="#reviews" class="nav-link">顾客评价</a>
+        <a href="#reserve" class="nav-link">预订</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:021-68888888" class="header-phone">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>021-6888 8888</span>
+        </a>
+        <a href="#reserve" class="btn btn-gold btn-reserve">立即预订</a>
+        <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== Hero ===================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" role="img" aria-label="三河石府餐厅环境"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow reveal">三 河 之 畔 · 东 方 至 味</p>
+        <h1 class="hero-title reveal">三河石府</h1>
+        <p class="hero-sub reveal">以三河之鲜入馔，以匠心守一席东方雅宴。<br class="desktop-only" />甄选当季食材，呈献有温度的中式料理。</p>
+        <div class="hero-actions reveal">
+          <a href="#reserve" class="btn btn-gold btn-lg">立即预订</a>
+          <a href="#dishes" class="btn btn-ghost btn-lg">查看招牌菜</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat"><strong>12</strong><span>年匠心沉淀</span></div>
+          <div class="stat"><strong>4.9</strong><span>顾客好评评分</span></div>
+          <div class="stat"><strong>36</strong><span>道时令招牌菜</span></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="向下滚动">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================== 特色条 ===================== -->
+    <section class="features">
+      <div class="container features-grid">
+        <div class="feature reveal">
+          <div class="feature-icon">🍃</div>
+          <h3>严选时令河鲜</h3>
+          <p>每日直采时令山珍海味，从源头守护每一口的鲜。</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">👨‍🍳</div>
+          <h3>名厨匠心掌勺</h3>
+          <p>主厨团队二十余年功底，火候与调味恰到好处。</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">🏮</div>
+          <h3>雅致私密包间</h3>
+          <p>东方美学空间，商务宴请与亲友聚会的理想之选。</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">🚗</div>
+          <h3>免费停车泊位</h3>
+          <p>门店专属停车场，用餐客人免费停车 2 小时。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 关于我们 ===================== -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <div class="about-img" role="img" aria-label="三河石府大厅"></div>
+          <div class="about-badge">
+            <strong>12</strong>
+            <span>年·传承与创新</span>
+          </div>
+        </div>
+        <div class="about-body reveal">
+          <p class="section-eyebrow">关于我们 · ABOUT US</p>
+          <h2 class="section-title">三河之畔，<br />一席东方雅宴</h2>
+          <p class="about-text">三河石府创立于 2014 年，坐落于城市繁华一隅。我们相信，好的料理源自对食材的敬畏与对时间的耐心——每日清晨直采当季山珍海味，由主厨以传统工艺结合现代美学，呈献一道道有温度、有故事的中式佳肴。</p>
+          <ul class="about-list">
+            <li>每日清晨直采，食材不过夜</li>
+            <li>传统工艺 × 现代摆盘美学</li>
+            <li>专业侍酒与宴会管家服务</li>
+          </ul>
+          <div class="about-sign">
+            <span class="sign-name">主厨 · 林石川</span>
+            <a href="#reserve" class="text-link">预约一探究竟 →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 招牌菜 ===================== -->
+    <section class="dishes section" id="dishes">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">招牌菜 · SIGNATURE DISHES</p>
+          <h2 class="section-title">当季臻选，不容错过</h2>
+          <p class="section-desc">六道招牌，融三河之鲜于一席。</p>
+        </div>
+
+        <div class="dishes-grid">
+          <article class="dish-card reveal">
+            <div class="dish-media">
+              <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=80" alt="红烧鲍鱼" loading="lazy" />
+              <span class="dish-tag">必点</span>
+            </div>
+            <div class="dish-info">
+              <h3>红烧鲍鱼皇</h3>
+              <p>深海大鲍鱼，文火慢煨 6 小时，鲍汁浓郁，入口软糯。</p>
+              <div class="dish-foot"><span class="dish-price">¥ 288</span><span class="dish-unit">/ 位</span></div>
+            </div>
+          </article>
+
+          <article class="dish-card reveal">
+            <div class="dish-media">
+              <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="松茸炖土鸡" loading="lazy" />
+              <span class="dish-tag">人气</span>
+            </div>
+            <div class="dish-info">
+              <h3>松茸炖土鸡汤</h3>
+              <p>云南野生松茸配散养土鸡，清炖四小时，汤清而味厚。</p>
+              <div class="dish-foot"><span class="dish-price">¥ 168</span><span class="dish-unit">/ 例</span></div>
+            </div>
+          </article>
+
+          <article class="dish-card reveal">
+            <div class="dish-media">
+              <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80" alt="葱烧海参" loading="lazy" />
+              <span class="dish-tag">经典</span>
+            </div>
+            <div class="dish-info">
+              <h3>葱烧辽参</h3>
+              <p>精选辽参配大葱，以秘制酱汁烧制，咸鲜回甘，滋补上品。</p>
+              <div class="dish-foot"><span class="dish-price">¥ 328</span><span class="dish-unit">/ 位</span></div>
+            </div>
+          </article>
+
+          <article class="dish-card reveal">
+            <div class="dish-media">
+              <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="黑松露和牛" loading="lazy" />
+              <span class="dish-tag">主厨推荐</span>
+            </div>
+            <div class="dish-info">
+              <h3>黑松露和牛粒</h3>
+              <p>M9 和牛切粒大火爆炒，现刨黑松露，香气层层递进。</p>
+              <div class="dish-foot"><span class="dish-price">¥ 388</span><span class="dish-unit">/ 例</span></div>
+            </div>
+          </article>
+
+          <article class="dish-card reveal">
+            <div class="dish-media">
+              <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80" alt="时蔬沙拉" loading="lazy" />
+              <span class="dish-tag">清爽</span>
+            </div>
+            <div class="dish-info">
+              <h3>山野时蔬沙拉</h3>
+              <p>当季有机时蔬，佐以油醋汁，清甜爽脆，开胃解腻。</p>
+              <div class="dish-foot"><span class="dish-price">¥ 68</span><span class="dish-unit">/ 例</span></div>
+            </div>
+          </article>
+
+          <article class="dish-card reveal">
+            <div class="dish-media">
+              <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=80" alt="杨枝甘露" loading="lazy" />
+              <span class="dish-tag">甜品</span>
+            </div>
+            <div class="dish-info">
+              <h3>杨枝甘露</h3>
+              <p>新鲜芒果与西柚的碰撞，椰香清甜，为宴席画上圆满句点。</p>
+              <div class="dish-foot"><span class="dish-price">¥ 38</span><span class="dish-unit">/ 份</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-more reveal">
+          <p>另有 30+ 道时令菜品，欢迎到店品尝完整菜单。</p>
+          <a href="#reserve" class="btn btn-outline">预订座位</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 餐厅环境 ===================== -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">餐厅环境 · OUR SPACE</p>
+          <h2 class="section-title">一器一物，皆是东方意境</h2>
+          <p class="section-desc">中式雅致空间，满足商务宴请、家庭聚餐与浪漫约会。</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80" alt="餐厅大厅" loading="lazy" /></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80" alt="用餐区" loading="lazy" /></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80" alt="包间内景" loading="lazy" /></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?auto=format&fit=crop&w=1200&q=80" alt="餐厅一角" loading="lazy" /></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80" alt="雅致包间" loading="lazy" /></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=80" alt="茶室" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 顾客评价 ===================== -->
+    <section class="reviews section" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">顾客评价 · REVIEWS</p>
+          <h2 class="section-title">食客口中的三河石府</h2>
+          <p class="section-desc">4.9 分好评 · 来自 2,300+ 位顾客的真实评价</p>
+        </div>
+        <div class="reviews-grid">
+          <blockquote class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>「红烧鲍鱼皇的鲍汁拌饭堪称一绝，环境雅致，服务员全程贴心，宴请客户非常有面子。」</p>
+            <footer>
+              <span class="review-avatar">王</span>
+              <div><strong>王先生</strong><small>商务宴请 · 2026.09</small></div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>「带爸妈来过生日，松茸炖土鸡汤鲜掉眉毛，包间安静，停车也方便，全家都很满意。」</p>
+            <footer>
+              <span class="review-avatar">李</span>
+              <div><strong>李女士</strong><small>家庭聚餐 · 2026.08</small></div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>「黑松露和牛粒火候精准，甜品杨枝甘露是惊喜。已经把它安利给身边所有朋友了。」</p>
+            <footer>
+              <span class="review-avatar">陈</span>
+              <div><strong>陈小姐</strong><small>朋友聚会 · 2026.10</small></div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 预订 ===================== -->
+    <section class="reserve section" id="reserve">
+      <div class="container reserve-grid">
+        <div class="reserve-info reveal">
+          <p class="section-eyebrow">预订座位 · RESERVATION</p>
+          <h2 class="section-title">预订一席，<br />共赴三河之约</h2>
+          <p class="reserve-text">填写以下信息，我们的宴会管家将在 10 分钟内与您电话确认。高峰时段建议提前 1–2 天预订。</p>
+
+          <ul class="reserve-details">
+            <li>
+              <span class="rd-icon">📍</span>
+              <div><strong>餐厅地址</strong><p>上海市黄浦区中山东一路 88 号 3F</p></div>
+            </li>
+            <li>
+              <span class="rd-icon">🕐</span>
+              <div><strong>营业时间</strong><p>周一至周日 11:00 – 14:00 · 17:00 – 22:00</p></div>
+            </li>
+            <li>
+              <span class="rd-icon">📞</span>
+              <div><strong>预订电话</strong><p>021-6888 8888 / 138-0000-8888</p></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="reserve-form reveal" id="reserveForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">您的称呼</label>
+              <input type="text" id="name" name="name" placeholder="例如：王先生" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">联系电话</label>
+              <input type="tel" id="phone" name="phone" placeholder="用于确认预订" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="date">到店日期</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+            <div class="form-field">
+              <label for="time">到店时间</label>
+              <select id="time" name="time" required>
+                <option value="">请选择时间</option>
+                <option>11:00</option><option>11:30</option><option>12:00</option><option>12:30</option><option>13:00</option>
+                <option>17:00</option><option>17:30</option><option>18:00</option><option>18:30</option><option>19:00</option><option>19:30</option><option>20:00</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="guests">用餐人数</label>
+              <select id="guests" name="guests" required>
+                <option value="">请选择人数</option>
+                <option>1–2 人</option><option>3–4 人</option><option>5–6 人</option>
+                <option>7–10 人</option><option>10 人以上</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="occasion">用餐场合 <small>(选填)</small></label>
+              <select id="occasion" name="occasion">
+                <option value="">请选择（选填）</option>
+                <option>家庭聚餐</option><option>商务宴请</option><option>生日 / 纪念日</option><option>朋友聚会</option><option>其他</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="note">备注 <small>(选填)</small></label>
+            <textarea id="note" name="note" rows="3" placeholder="如有忌口、包间需求或特殊安排，请在此说明"></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-lg btn-block">提交预订申请</button>
+          <p class="form-tip">提交即表示您同意我们通过电话与您联系确认预订。</p>
+          <p class="form-success" id="formSuccess" role="status" hidden>✅ 预订申请已提交！我们的宴会管家将尽快与您电话确认。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 页脚 ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home">
+          <span class="brand-mark">石</span>
+          <span class="brand-text"><strong>三河石府</strong><small>SAN HE DINING</small></span>
+        </a>
+        <p>三河之畔，品味东方至味。以匠心，守一席东方雅宴。</p>
+      </div>
+      <div class="footer-col">
+        <h4>快速导航</h4>
+        <a href="#about">关于我们</a>
+        <a href="#dishes">招牌菜</a>
+        <a href="#gallery">餐厅环境</a>
+        <a href="#reserve">在线预订</a>
+      </div>
+      <div class="footer-col">
+        <h4>联系我们</h4>
+        <a href="tel:021-68888888">021-6888 8888</a>
+        <a href="mailto:hello@sanhe.example.com">hello@sanhe.example.com</a>
+        <span>上海市黄浦区中山东一路 88 号 3F</span>
+      </div>
+      <div class="footer-col">
+        <h4>营业时间</h4>
+        <span>周一至周日</span>
+        <span>午市 11:00 – 14:00</span>
+        <span>晚市 17:00 – 22:00</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 三河石府 · 保留所有权利</span>
+      <span>沪ICP备2026xxxxxx号 · 本页面为演示示例</span>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="回到顶部">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

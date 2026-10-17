@@ -1,0 +1,39 @@
+# ===== 操作系统 =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ===== 日志 / 临时文件 =====
+*.log
+*.tmp
+*.bak
+tmp/
+.DS_Store
+
+# ===== 依赖 / 构建产物 =====
+node_modules/
+dist/
+build/
+*.zip
+*.tar.gz
+
+# ===== 环境变量 / 密钥 =====
+.env
+.env.*
+!.env.example
